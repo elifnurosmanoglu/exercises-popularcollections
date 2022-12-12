@@ -1,0 +1,70 @@
+.card-bg {
+  background-color: #d8dae2;
+  padding: 220px 10px;
+}
+.round {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  background: linear-gradient(0deg, #e5e7f0, #e5e7f0),
+    linear-gradient(0deg, #e5e7f0, #e5e7f0),
+    linear-gradient(0deg, #e5e7f0, #e5e7f0),
+    linear-gradient(0deg, #e5e7f0, #e5e7f0), #e5e7f0;
+  color: #e5e7f0;
+  left: 1000px;
+  top: 65px;
+}
+
+
+.text {
+  display: flex;
+  padding: 24px;
+}
+.frame {
+  display: flex;
+  padding-left: 300px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.card-wrapper {
+  padding: 60px;
+  background-color: #eff0f1;
+  border-radius: 26px;
+  box-shadow: 0px 76px 27px rgba(6, 27, 82, 0.1);
+}
+.card-header a {
+  text-decoration: none;
+  border-radius: 5px;
+  color: #0e0e38;
+  margin-right: 18px;
+  background-color: #fff;
+  font-size: 16px;
+  padding: 10px;
+}
+.card-list {
+  display: flex;
+  padding: 56px;
+  padding-left: 0;
+}
+.card {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 32px;
+  width: 437px;
+  margin-right: 64px;
+}
+.img,
+.images {
+  padding: 24px;
+}
+.images img {
+  margin-right: 8px;
+}
+.card li {
+  display: flex;
+}
